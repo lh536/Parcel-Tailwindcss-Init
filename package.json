@@ -1,0 +1,22 @@
+{
+    "name": "parcel-init-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build:dev": "parcel src/index.html -d dev -p 8080 --target browser --open",
+        "build:prod": "parcel build src/index.html -d dist"
+    },
+    "keywords": [],
+    "author": "Fabio Duarte",
+    "license": "ISC",
+    "devDependencies": {
+        "@fullhuman/postcss-purgecss": "^2.3.0",
+        "cssnano": "^4.1.10",
+        "postcss-modules": "^3.2.2"
+    },
+    "dependencies": {
+        "tailwindcss": "^1.8.11"
+    }
+}
