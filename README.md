@@ -1,0 +1,1 @@
+Este es un repositorio con la configuración inicial para un proyecto usando [ParcelJS](https://parceljs.org/) y [TailwindCSS](https://tailwindcss.com/).
